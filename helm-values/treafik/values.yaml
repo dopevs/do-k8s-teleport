@@ -1,0 +1,15 @@
+# Enable the Kubernetes Ingress provider
+kubernetes:
+  ingress:
+    enabled: true
+
+# Enable the Dashboard
+dashboard:
+  enabled: false
+
+# Define the entry points
+entryPoints:
+  http:
+    address: ":80"
+  https:
+    address: ":443"
