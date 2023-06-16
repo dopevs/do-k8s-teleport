@@ -1,0 +1,8 @@
+clusterName: teleport.dopevs.engineer
+proxyListenerMode: multiplex
+acme: true
+acmeEmail: waiyanwinhtain2016@gmail.com
+persistence:
+  enabled: false
+authentication:
+ secondFactor: "off"

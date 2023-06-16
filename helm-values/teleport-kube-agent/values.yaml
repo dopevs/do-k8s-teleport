@@ -1,0 +1,9 @@
+authToken: aac212cb330db04c2726fdb38d728792
+proxyAddr: teleport.dopevs.engineer:443
+kubeClusterName: do-k8s-cluster
+labels:
+  env: staging
+  project: do-k8s-teleport-lab
+  owner: devops-team
+
+  

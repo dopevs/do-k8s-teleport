@@ -1,0 +1,14 @@
+kind: role
+version: v6
+metadata:
+  name: member
+spec:
+  allow:
+    kubernetes_groups:
+    - read
+    kubernetes_labels:
+      '*': '*'
+    kubernetes_resources:
+      - kind: pod
+        namespace: "*"
+        name: "*"
